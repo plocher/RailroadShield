@@ -94,7 +94,7 @@
 <text x="75.692" y="2.54" size="1.27" layer="26" font="vector" rot="MR180">Solder Side</text>
 <text x="63.881" y="45.593" size="1.016" layer="48" font="vector" rot="R180">John Plocher</text>
 <text x="75.311" y="4.826" size="0.6096" layer="48" font="vector">2010.06</text>
-<text x="66.802" y="4.826" size="1.016" layer="48" font="vector">Rev. 1.0</text>
+<text x="66.802" y="4.826" size="1.016" layer="48" font="vector">Rev. 1.1</text>
 <text x="66.802" y="8.89" size="1.27" layer="48" font="vector">RailroadShield</text>
 <text x="66.802" y="6.858" size="0.8128" layer="48" font="vector">Loconet &amp; CAN/NMRAnet</text>
 <text x="69.596" y="36.703" size="1.27" layer="48" font="vector" rot="R180">Loconet</text>

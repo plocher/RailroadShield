@@ -1,4 +1,12 @@
 Arduino shield with various DCC Cab Bus and control interfaces
 
-Initial experimentation - breadboard friendly layout
+UPDATE 
+
+I ordered 10x boards from SeeedStudio
+I also placed a Mouser order for all the parts except for the LM317LD, which nobody has in stock and the 'duino headers, which I order from SAMTEK
+The board cost $4, the parts come to $30 + shipping.
+
+UPDATE
+
+The boards came in and I've built up one for testing - the LEDs and Loconet parts work, and I'm trying to understand the openLCB code...
 

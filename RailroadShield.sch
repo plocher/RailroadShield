@@ -7392,7 +7392,7 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <text x="62.23" y="91.44" size="2.54" layer="250">NMRAnet CAN Interface</text>
 <text x="43.18" y="149.86" size="1.27" layer="250">Termination</text>
 <text x="149.86" y="27.94" size="5.08" layer="250">Locoduino</text>
-<text x="238.76" y="7.62" size="2.54" layer="250">1.0</text>
+<text x="238.76" y="7.62" size="2.54" layer="250">1.1</text>
 <text x="155.194" y="24.13" size="2.54" layer="250">Control Point</text>
 <text x="195.58" y="27.94" size="2.54" layer="250">Loconet &amp; CAN/NMRAnet</text>
 <text x="223.52" y="111.76" size="1.27" layer="95">SCL</text>
