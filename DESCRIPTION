@@ -1,14 +1,4 @@
 Arduino shield with various DCC Cab Bus and control interfaces
 
-UPDATE
-
-More prototyping and experimentation
-
-Made a small production run
-
-Nit:  The diodes I used in this version are too small to see the polarity banding, which makes assembly difficult!
-
-The first batch is out in the hands of OpenLCB developers, and seems to be working well - except for the overloading of D10 by the CAN SPI code, one of the buttons and the ethernet SPI shield...  Sigh.
-
-
+Converting to SMD parts for ease of assembly
 
