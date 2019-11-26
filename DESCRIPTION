@@ -2,13 +2,5 @@ Arduino shield with various DCC Cab Bus and control interfaces
 
 UPDATE
 
-I rev'd the board to 2.3, with SMT ICs, SOT23-3 diodes and a jumper block for all the I/O interconnects. 
-
-There are a couple of DRC tight clearance problems that I missed:
-
- 1. RailroadShield 2.3 PCB DRC Error #1 the DCC connector (J8) pad1 is close to a trace on the top layer 
- 2. RailroadShield 2.3 PCB DRC Error #2 there is a via situated between the jumper blocks SV1 & SV3 (by D6/LoconetRX) that is close to a trace on the bottom layer. 
-
-
-To see if there are problems, use an ohmmeter across the DCC jack - if there is continuity, use an exacto knife to trim the pad away from the trace; similarly, check between "yIO" and "A2" - if there is a connection, fix the bottom layer trace/via short. 
+Fixed the DRC problems
 
