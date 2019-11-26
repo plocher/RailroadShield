@@ -3555,32 +3555,6 @@ Siemens</description>
 <text x="-4.191" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="Q62902-B155">
-<description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-Siemens</description>
-<wire x1="4.445" y1="-3.048" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="11.938" y1="3.048" x2="3.556" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="11.938" y1="3.048" x2="11.938" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="-3.048" x2="3.556" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="3.556" y1="-3.048" x2="11.938" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="0.508" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="4.445" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="2.54" x2="0.508" y2="-2.54" width="0.1524" layer="21" curve="180"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="1.397" x2="-0.381" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="1.905" x2="0.508" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="9.525" y2="1.905" width="0.127" layer="21"/>
-<wire x1="11.43" y1="0.635" x2="9.525" y2="0.635" width="0.127" layer="21"/>
-<wire x1="11.43" y1="-0.635" x2="9.525" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="11.43" y1="-1.905" x2="9.525" y2="-1.905" width="0.127" layer="21"/>
-<pad name="K" x="7.62" y="1.27" drill="0.8128" shape="long"/>
-<pad name="A" x="7.62" y="-1.27" drill="0.8128" shape="long"/>
-<text x="9.017" y="-2.794" size="1.016" layer="21" ratio="14">+</text>
-<text x="9.017" y="1.778" size="1.016" layer="21" ratio="14">-</text>
-<text x="13.589" y="-2.794" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-4.445" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="Q62902-B156">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
 Siemens</description>
@@ -4268,6 +4242,32 @@ Source: http://www.kingbright.com/manager/upload/pdf/KA-3528ASYC(Ver1189474662.1
 <vertex x="0.825" y="-1.35"/>
 </polygon>
 </package>
+<package name="Q62902-B155">
+<description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
+Siemens</description>
+<wire x1="4.445" y1="-3.048" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="11.938" y1="3.048" x2="3.556" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="11.938" y1="3.048" x2="11.938" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-3.048" x2="3.556" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-3.048" x2="11.938" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="0.508" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="4.445" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="2.54" x2="0.508" y2="-2.54" width="0.1524" layer="21" curve="180"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="1.397" x2="-0.381" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="1.905" x2="0.508" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="11.43" y1="1.905" x2="9.525" y2="1.905" width="0.127" layer="21"/>
+<wire x1="11.43" y1="0.635" x2="9.525" y2="0.635" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-0.635" x2="9.525" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-1.905" x2="9.525" y2="-1.905" width="0.127" layer="21"/>
+<pad name="A" x="7.62" y="1.27" drill="0.8128" shape="long"/>
+<pad name="K" x="7.62" y="-1.27" drill="0.8128" shape="long"/>
+<text x="10.033" y="2.794" size="1.016" layer="21" ratio="14" rot="R180">+</text>
+<text x="10.033" y="-1.778" size="1.016" layer="21" ratio="14" rot="R180">-</text>
+<text x="13.589" y="-2.794" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-4.445" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP2515">
@@ -4765,8 +4765,8 @@ Source: www.kingbright.com</description>
 </device>
 <device name="B155" package="Q62902-B155">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
+<connect gate="G$1" pin="A" pad="K"/>
+<connect gate="G$1" pin="C" pad="A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7392,7 +7392,7 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <text x="62.23" y="91.44" size="2.54" layer="250">NMRAnet CAN Interface</text>
 <text x="43.18" y="149.86" size="1.27" layer="250">Termination</text>
 <text x="149.86" y="27.94" size="5.08" layer="250">Locoduino</text>
-<text x="238.76" y="7.62" size="2.54" layer="250">1.1</text>
+<text x="238.76" y="7.62" size="2.54" layer="250">1.2</text>
 <text x="155.194" y="24.13" size="2.54" layer="250">Control Point</text>
 <text x="195.58" y="27.94" size="2.54" layer="250">Loconet &amp; CAN/NMRAnet</text>
 <text x="223.52" y="111.76" size="1.27" layer="95">SCL</text>
