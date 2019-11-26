@@ -54,6 +54,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="Anatomie" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Bemassung" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
@@ -82,11 +83,14 @@
 <layer number="108" name="fp8" color="7" fill="1" visible="no" active="no"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="no"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="bdokum" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
@@ -103,6 +107,20 @@
 <layer number="208" name="208bmp" color="9" fill="10" visible="no" active="no"/>
 <layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
 <layer number="210" name="210bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
@@ -177,8 +195,10 @@
 <wire x1="33.274" y1="43.434" x2="33.274" y2="42.926" width="0.254" layer="48"/>
 <wire x1="33.274" y1="42.926" x2="23.622" y2="42.926" width="0.254" layer="48"/>
 <wire x1="23.622" y1="42.926" x2="23.622" y2="43.434" width="0.254" layer="48"/>
-<wire x1="22.606" y1="10.414" x2="1.27" y2="10.414" width="0" layer="48"/>
-<wire x1="17.018" y1="10.16" x2="17.018" y2="0.762" width="0" layer="48"/>
+<wire x1="22.606" y1="10.414" x2="17.272" y2="10.414" width="0" layer="48"/>
+<wire x1="17.272" y1="10.414" x2="1.27" y2="10.414" width="0" layer="48"/>
+<wire x1="26.67" y1="9.906" x2="26.67" y2="1.016" width="0" layer="48"/>
+<wire x1="26.67" y1="1.016" x2="26.67" y2="0.508" width="0" layer="48"/>
 <wire x1="41.91" y1="53.848" x2="41.91" y2="52.578" width="0.3048" layer="48"/>
 <wire x1="70.866" y1="14.478" x2="70.866" y2="15.24" width="0.254" layer="48"/>
 <wire x1="70.866" y1="15.24" x2="76.454" y2="15.24" width="0.254" layer="48"/>
@@ -196,12 +216,14 @@
 <wire x1="37.846" y1="15.24" x2="47.244" y2="15.24" width="0.3048" layer="48"/>
 <wire x1="41.91" y1="55.372" x2="41.91" y2="55.118" width="0.3048" layer="48"/>
 <wire x1="39.624" y1="55.372" x2="40.005" y2="55.118" width="0.3048" layer="48"/>
+<wire x1="22.606" y1="10.414" x2="26.67" y2="10.414" width="0" layer="48"/>
+<wire x1="26.67" y1="10.414" x2="26.67" y2="9.906" width="0" layer="48"/>
 <text x="100.9015" y="59.1185" size="1.27" layer="48" font="vector" rot="R90">Loconet</text>
 <text x="97.155" y="33.274" size="0.8128" layer="48" font="vector" rot="R270">Component Side</text>
 <text x="96.52" y="6.096" size="0.8128" layer="26" font="vector" rot="MR90">Solder Side</text>
-<text x="88.011" y="37.211" size="0.8128" layer="48" font="vector">John Plocher</text>
+<text x="27.813" y="1.143" size="0.8128" layer="48" font="vector" rot="R90">John Plocher</text>
 <text x="52.959" y="34.163" size="0.8128" layer="48" font="vector">2011.07</text>
-<text x="81.534" y="35.306" size="1.016" layer="48" font="vector" rot="R180">Rev. 2.4</text>
+<text x="81.534" y="35.306" size="1.016" layer="48" font="vector" rot="R180">Rev. 2.5</text>
 <text x="53.086" y="36.068" size="2.54" layer="48" font="vector" ratio="15">RailroadShield</text>
 <text x="101.1555" y="44.0055" size="1.27" layer="48" font="vector" rot="R90">Loconet</text>
 <text x="101.4095" y="20.447" size="1.27" layer="48" font="vector" rot="R90">CAN/openLCB</text>
@@ -219,7 +241,7 @@
 <text x="28.956" y="9.906" size="1.27" layer="48" font="vector">+ IN-</text>
 <text x="36.068" y="10.16" size="1.27" layer="48" font="vector">+OUT-</text>
 <text x="1.8034" y="16.6624" size="2.1844" layer="48" font="vector" ratio="15">NCE</text>
-<text x="19.05" y="4.826" size="2.1844" layer="48" font="vector" ratio="15">C/MRI</text>
+<text x="50.546" y="0.762" size="2.1844" layer="48" font="vector" ratio="15" rot="R90">C/MRI</text>
 <text x="64.262" y="51.308" size="1.27" layer="26" font="vector" ratio="15" rot="MR180">.com</text>
 <text x="90.678" y="57.15" size="1.27" layer="26" font="vector" ratio="15" rot="MR0">www.</text>
 <text x="35.052" y="10.922" size="1.778" layer="26" font="vector" rot="MR180">Model Railroading is fun!</text>
@@ -274,11 +296,11 @@
 <text x="35.814" y="64.516" size="1.4224" layer="26" font="vector" ratio="15" rot="MR180">Made in the PCR, Coast Division, NMRA</text>
 <text x="33.528" y="63.754" size="0.8128" layer="48" font="vector" ratio="15">Made in the PCR, Coast Division, NMRA</text>
 <text x="98.3615" y="2.3495" size="1.016" layer="48" font="vector" rot="R90">seeed: 31126</text>
-<text x="103.886" y="0" size="0.6096" layer="49" rot="R90">Fixed: component labeling problems</text>
-<text x="105.156" y="0" size="0.6096" layer="49" rot="R90">Fixed: clearance problems</text>
-<text x="106.68" y="0" size="0.6096" layer="49" rot="R90">Fixed: aligned parts to grid</text>
+<text x="103.886" y="0" size="0.6096" layer="49" rot="R90">Fixed: Added Open Source Hardware Label</text>
 <text x="75.438" y="9.906" size="0.8128" layer="48" rot="R180">Ground</text>
 <text x="77.47" y="39.624" size="3.81" layer="26" font="vector" ratio="20" rot="MR180">v2.4</text>
+<text x="16.002" y="8.89" size="1.016" layer="48">Open Source</text>
+<text x="16.51" y="2.286" size="1.016" layer="48">Hardware</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1251,6 +1273,43 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <pad name="P$1" x="-2.54" y="0" drill="0.8"/>
 <pad name="P$2" x="2.54" y="0" drill="0.8"/>
 </package>
+<package name="OSHW-LOGO-M">
+<polygon width="0.15" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1575,11 +1634,11 @@ design rules under a new name.</description>
 </element>
 <element name="J6" library="MCP" package="KK-156-5" value="KK-156-5" x="38.1" y="5.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.861" y="8.134" size="1.27" layer="25"/>
-<attribute name="VALUE" x="49.27" y="9.525" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="33.909" y="-2.292" size="1.27" layer="27"/>
 </element>
 <element name="J7" library="MCP" package="KK-156-5" value="KK-156-5" x="60.96" y="5.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.721" y="8.134" size="1.27" layer="25"/>
-<attribute name="VALUE" x="49.27" y="9.525" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="58.039" y="-2.038" size="1.27" layer="27"/>
 </element>
 <element name="J8" library="MCP" package="MSTBV2" value="MSTB-02" x="3.81" y="62.23" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.262" y="62.611" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -1629,7 +1688,7 @@ design rules under a new name.</description>
 </element>
 <element name="JP9" library="MCP" package="1X02_LOCK" value="NCEPWR" x="19.304" y="24.384" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.5608" y="23.6982" size="0.8128" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="22.606" y="19.177" size="1.27" layer="48" rot="R180"/>
+<attribute name="VALUE" x="21.844" y="18.415" size="1.27" layer="48" rot="R180"/>
 </element>
 <element name="SV2" library="con-lsta" package="FE15" value="929850-01-15" x="41.91" y="57.15" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.849" y="58.928" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -1674,6 +1733,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.145" y="27.051" size="0.8128" layer="27"/>
 </element>
 <element name="F1" library="SparkFun" package="PTC" value="PTCPTH" x="33.274" y="16.764"/>
+<element name="U$2" library="SparkFun" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="20.066" y="6.096" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
