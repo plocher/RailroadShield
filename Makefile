@@ -1,1 +1,1 @@
-../../Makefile.github
+../../../Makefile.github

@@ -3,6 +3,6 @@ project: RailroadShield
 designer: John Plocher
 fabricated: yes
 fab_date: 2011-07
-status: experimental
+status: obsolete
 release: yes
 tags: [eagle, SPCoast, LCB]
